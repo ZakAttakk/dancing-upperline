@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <script src="p5.js"></script>
+    <script src="p5.sound.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/archilogic-com/aframe-gblock/6498b71d/dist/gblock.js"></script>
+  </head>
+  <body>
+    <div id="myEmbeddedScene">
+      <a-scene embedded>
+
+          <a-box height="0.1" id="box1" color="red" position="-5 0 -5">
+          <a-text color="black" height="10" position="-.3 0 .6" scale="4 4 4" value="U"></a-text></a-box>
+          <a-box height="0.1" id="box2" color="yellow" position="-4 0 -5"><a-text height="10" color="black" position="-.3 0 .6" scale="4 4 4" value="P"></a-text></a-box>
+          <a-box height="0.1" id="box3" color="blue" position="-3 0 -5"><a-text height="10" color="black" position="-.3 0 .6" scale="4 4 4" value="P"></a-text></a-box>
+          <a-box height="0.1" id="box4" color="green" position="-2 0 -5"><a-text height="10" color="black" position="-.3 0 .6" scale="4 4 4" value="E"></a-text></a-box>
+          <a-box height="0.1" id="box5" color="purple" position="-1 0 -5"><a-text height="10" color="black" position="-.3 0 .6" scale="4 4 4" value="R"></a-text></a-box>
+          <a-box height="0.1" id="box6" color="orange" position="0 0 -5"><a-text height="10" color="black" position="-.3 0 .6" scale="4 4 4" value="L"></a-text></a-box>
+          <a-box height="0.1" id="box7" color="brown" position="1 0 -5"><a-text height="10" color="black" position="-.3 0 .6" scale="4 4 4" value="I"></a-text></a-box>
+          <a-box height="0.1" id="box8" color="grey" position="2 0 -5"><a-text height="10" color="black" position="-.3 0 .6" scale="4 4 4" value="N"></a-text></a-box>
+          <a-box height="0.1" id="box9" color="black" position="3 0 -5"><a-text height="10" color="white" position="-.3 0 .6" scale="4 4 4" value="E"></a-text></a-box>
+          <a-box height="0.1" id="box10" color="pink" position="4 0 -5"><a-text height="10" color="black" position="-.3 0 .6" scale="4 4 4" value="!"></a-text></a-box>
+          <!-- <a-box height="0.1" id="box11" color="pink" position="4 0 -5"><a-text height="10" color="black" position="-.3 0 .6" scale="4 4 4" value="!"></a-text></a-box> -->
+          <!-- <a-entity gblock="https://poly.google.com/view/55iicPutHoZ"></a-entity> -->
+
+          <a-sky color="lightblue"></a-sky>
+
+          <a-entity position="2.5 2 2" rotation="-20 20 0">
+            <a-camera></a-camera>
+          </a-entity>
+
+
+
+      </a-scene></div>
+
+      <!-- <button id="getStuffButton">TEST</button> -->
+
+
+
+
+
+
+    <script src="myScript.js"></script>
+
+  </body>
+</html>
